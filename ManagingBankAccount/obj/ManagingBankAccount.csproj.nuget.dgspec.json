@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/achraf/Documents/ADONET/ManagingBankAccount/ManagingBankAccount.csproj": {}
+  },
+  "projects": {
+    "/home/achraf/Documents/ADONET/ManagingBankAccount/ManagingBankAccount.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/achraf/Documents/ADONET/ManagingBankAccount/ManagingBankAccount.csproj",
+        "projectName": "ManagingBankAccount",
+        "projectPath": "/home/achraf/Documents/ADONET/ManagingBankAccount/ManagingBankAccount.csproj",
+        "packagesPath": "/home/achraf/.nuget/packages/",
+        "outputPath": "/home/achraf/Documents/ADONET/ManagingBankAccount/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/achraf/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0-preview1.23109.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.2-mauipre.1.22102.15, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.2-mauipre.1.22102.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
